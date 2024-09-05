@@ -1,0 +1,13 @@
+Operations on 2D arrays
+
+Transpose: Transpose of an m*n matrix A given as n*m matrix B (B (i,j) = A (j,i))
+
+Sum: Two matrices that are compatible with each other can be added together, storing the result in third matrix. Two matrices are said to be compatible when they have the same number of rows and columns. The elements of two matrices can be added by writing:
+
+c(i,j) = A(i,j) + B(i,j)
+
+Difference: Two matrices that are compatible with each other can be subtracted, storing the result in the third matrix. Two matrices are said to be compatible when they have the same number of rows nd columns. Two elements of two matrices can be subtracted by writing:
+C(i,j) = A(i,j) - B(i,j)
+
+Product: Two matrices can be multiplied with each other if the number of columns in the first matrix is equal to the number of rows in the second matix. Therefore, m*n matrix A can be multiplied with p*q matrix if (n=p). The dimension of the product matrix is m*q. The elements of two matrices can be multiplied by writing
+c(i,j) = ΣA(i,k)B(k,j) for k = 1 to n
