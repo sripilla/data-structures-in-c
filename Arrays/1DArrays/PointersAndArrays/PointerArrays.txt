@@ -1,0 +1,5 @@
+The name of the array is actually a pointer that points to the first element
+of the array
+
+When an array is passed to a function, we are actually passing a pointer to the function. Therefore, in the function declaration you must declare a pointer to receive the array name.
+
