@@ -3,7 +3,7 @@
 
 int main()
 {
-  char ch[20] = "JOHN"; // char ch[] = "JOHN"
+  char ch[20] = "1234"; // char ch[] = "JOHN"
   // NULL termination of strings is implicit
   
   int size = sizeof(ch);

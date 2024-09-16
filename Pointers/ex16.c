@@ -12,6 +12,7 @@ int main()
 
   int len = strlen(ch);
   printf("Length of string is %d\n", len);
+  printf("%s\n", ch);
 }
 
 /* SAMPLE OUTPUT 

@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+/* Arrays are always passes to function by reference */
 void print(char *c)
 {
   int i = 0;
