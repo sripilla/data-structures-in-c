@@ -1,0 +1,11 @@
+Scan the symbols of the given postfix expression from left to right and for each symbol, do the following:
+
+a) If the symbol is operand
+       > push it on the stack
+b) If the symbol is an operator
+       > pop two symbols out of the stack and 
+         apply on these symbols
+      > push the result on the stack
+
+c) After scanning all the symbols of the postfix expr, pop the remaining symbol out of the stack and print it on the screen. 
+The remaining symbol is the result obtained after evaluating the postfix expr

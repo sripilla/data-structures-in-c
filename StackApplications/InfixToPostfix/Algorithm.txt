@@ -1,0 +1,22 @@
+Scan the symbols of the expression from left to right and for each symbol
+do the following:
+
+a) If the symbol is an operand
+      > print that symbol onto the screen
+b) If the symbol is left paranthesis
+      > push it on to the stack
+c) If symbol is a right paranthesis,
+      > pop all the operators from the stack upto the first left paranthesis and 
+        print them on the screen
+      > Discard left and right paranthesis.
+d) If symbol is an operator
+      > If the precedence of the operators in the stack are greater than or equal
+        to the current operator then, 
+            -- pop the operators out of the stack and
+               print them onto the screen, and 
+               push the current operator onto the stack.
+      > else 
+           -- push the current operator onto the stack.
+
+
+

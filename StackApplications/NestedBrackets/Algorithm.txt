@@ -1,0 +1,15 @@
+ALGORITHM - balanced brackets using a stack
+
+1. Create an empty stack
+2. Scan the  expression from left to right
+3. If the symbol is a left bracket, then push the symbol onto the stack
+4. If the symbol is a right bracket, do the following
+      a) If the stack is empty,
+                print "Invalid expression: right bracket without matching left                            bracket"
+      b) else, pop an element from the stack
+                If the popped element does not match the current right bracket,
+                print "Invalid expression: Mismatched Brackets"
+5. After scanning all the symbols of the expression
+      a) If stack is empty
+                print "Valid expression: brackets are well balanced"
+      b) else, print "Invalid expression: Left brackets are more than right                              brackets"

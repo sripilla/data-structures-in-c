@@ -1,0 +1,13 @@
+1. Scan the postfix expression from left to right
+2. If the symbol is an operand, then push it onto the stack
+3. If the symbol is an operator, then
+      a) pop two operands from the stack in the following order:
+         operand2 = pop()
+         operand1 = pop()
+      b) Create a string by concatenating the two operands and the operator 
+         before them
+
+         string = operator + operand1 + operand 2
+      c) push the resultant string back to stack
+4. Repeat the above steps until end of postfix expression
+5. pop the string representing the prefix expression on stack and return.
