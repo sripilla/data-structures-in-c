@@ -1,4 +1,4 @@
-/* Implement a queue of strings using an output restricted dequeue (no deleteRight).
+/* Implement a queue of strings using an output restricted deque (no deleteRight).
 Note: An output-restricted deque is one where insertion can be made at both ends, but deletion can be made from one end only, where as An input-restricted deque isone where deletion can be made from both ends, but insertion can be made at one end only.*/
 #include <stdio.h>
 #include <stdlib.h>

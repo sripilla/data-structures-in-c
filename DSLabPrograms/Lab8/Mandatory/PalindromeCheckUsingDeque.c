@@ -1,4 +1,4 @@
-/*Write a program to check whether given string is a palindrome using a dequeue. */
+/*Write a program to check whether given string is a palindrome using a deque. */
 
     #include <stdio.h>
     #include <stdlib.h>
