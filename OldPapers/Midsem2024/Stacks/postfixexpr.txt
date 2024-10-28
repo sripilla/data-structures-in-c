@@ -1,0 +1,9 @@
+1. Justify the need to convert infix expression to either prefix or postfix? Convert the infix expression A+(B-C*D)/E^F^G to its equivalent postfix by filling the below given table. (The ^ represents the power operator).
+
+Symbol scanned        Operation performed           Stack content        Postfix array 
+                |                           |           
+
+
+2. Discuss how a stack can help in checking if parentheses in an expression are
+balanced. Provide an example expression and explain the steps involved in using
+the stack. 
