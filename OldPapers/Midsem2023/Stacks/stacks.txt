@@ -1,0 +1,4 @@
+
+Write an algorithm for converting from prefix to postfix expression. Convert the
+following expression into postfix expression using stack (A+B)*C-D/E..
+
